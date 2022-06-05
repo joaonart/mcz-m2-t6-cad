@@ -4,8 +4,13 @@
 
 Export Jupyter Notebook to HTML
 
+```bash
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
 ```python
-!jupyter nbconvert --to html /content/M2_T6_CAD_Python.ipynb
+!jupyter nbconvert --to html /content/drive/MyDrive/Colab\ Notebooks/M2_T6_CAD_Python.ipynb
 ```
 
 Export Jupyter Notebook to PDF
@@ -15,5 +20,5 @@ Export Jupyter Notebook to PDF
 ```
 
 ```python
-!jupyter nbconvert --to pdf /content/M2_T6_CAD_Python.ipynb
+!jupyter nbconvert --to pdf /content/drive/MyDrive/Colab\ Notebooks/M2_T6_CAD_Python.ipynb
 ```
